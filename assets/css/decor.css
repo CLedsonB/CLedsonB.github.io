@@ -132,11 +132,11 @@ footer nav .redes-socias li a img {
 
 /*PÁGINA INICIAL -- MAIN*/
 main .col section ul li a {
-  color: #6cdff3;
+  color: #88ffff;
   text-decoration: underline;
 }
 main .col section ul li a:hover {
-  color: #60af24;
+  color: #22ffff;
 }
 
 main .col {
