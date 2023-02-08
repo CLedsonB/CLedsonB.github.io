@@ -148,7 +148,7 @@ main .col section {
   padding-bottom: 20px;
   margin: 0 0 20px;
   min-height: 180px;
-  color: #513ae8;
+  color: var(--corTextPrimaria);
   position: relative;
 }
 main .col section span {
