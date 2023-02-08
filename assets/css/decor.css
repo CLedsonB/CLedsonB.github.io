@@ -144,11 +144,11 @@ main .col {
 }
 
 main .col section {
-  border-bottom: 3px solid #80a7d0;
+  border-bottom: 3px solid #513ae8;
   padding-bottom: 20px;
   margin: 0 0 20px;
   min-height: 180px;
-  color: var(--corTextPrimaria);
+  color: #513ae8;
   position: relative;
 }
 main .col section span {
