@@ -83,7 +83,6 @@ header .col ul {
 }
 header .col ul li {
   margin: 0 0 12px;
-  color: var(--corTextPrimaria);
 }
 header .col ul li a {
   font-size: 1rem;
@@ -131,12 +130,14 @@ footer nav .redes-socias li a img {
 }
 
 /*PÁGINA INICIAL -- MAIN*/
-main .col section ul li a {
-  color: #22ffff;
+
+main .col section ul li .sites {
+  color: var(--corBackSecundaria);
   text-decoration: underline;
 }
-main .col section ul li a:hover {
-  color: #66ffff;
+main .col section ul li .sites:hover {
+  color: var(--corBackPrimaria);
+  text-decoration: underline;
 }
 
 main .col {
@@ -144,7 +145,7 @@ main .col {
 }
 
 main .col section {
-  border-bottom: 3px solid #513ae8;
+  border-bottom: 3px solid var(--corBackPrimaria);
   padding-bottom: 20px;
   margin: 0 0 20px;
   min-height: 180px;
@@ -245,10 +246,21 @@ label span {
 
 .ativar-dark:checked ~ .dark-mode {
   --corBackPrimaria: #555;
-  --corBackSecundaria: #1e1b1b;
+  --corBackSecundaria: #444343;
   --corTextPrimaria: #fff;
   --corTextSecundaria: #ddd;
 }
+
+
+.ativar-dark:checked ~ .dark-mode main .col section ul li .sites {
+  color: #6cdff3;
+  text-decoration: underline;
+}
+
+.ativar-dark:checked ~ .dark-mode main .col section ul li .sites:hover {
+  color: #2455da;
+}
+
 .ativar-dark:checked ~ .dark-mode header {
   background-color: #000;
 }
