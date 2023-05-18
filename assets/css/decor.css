@@ -281,7 +281,7 @@ Celulares	Desktops	Televisivo
 
 /*TABLET--DESKTOP*/
 
-@media only screen and (min-device-width: 768px) {
+@media only screen and (min-width: 768px) {
   .conter {
     width: 100%;
     max-width: 1125px;
@@ -357,7 +357,7 @@ Celulares	Desktops	Televisivo
   }
 }
 
-@media only screen and (min-device-width: 2560px) {
+@media only screen and (min-device-width: 1023px) {
   .conter {
     max-width: 1300px;
   }
