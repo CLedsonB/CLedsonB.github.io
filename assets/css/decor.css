@@ -357,7 +357,7 @@ Celulares	Desktops	Televisivo
   }
 }
 
-@media only screen and (min-device-width: 1023px) {
+@media only screen and (min-width: 1023px) {
   .conter {
     max-width: 1300px;
   }
