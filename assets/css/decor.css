@@ -168,6 +168,7 @@ main .col section .topo-direita {
   animation-fill-mode: forwards;
   border-top-color: #91c4f8;
   border-right-color: #91c4f8;
+  z-index : -1;
 }
 main .col section .baixo-esquerda {
   bottom: -2px;
@@ -178,6 +179,7 @@ main .col section .baixo-esquerda {
   animation-fill-mode: forwards;
   border-bottom-color: #91c4f8;
   border-left-color: #91c4f8;
+  z-index: -1;
 }
 
 main .col section h2 {
@@ -281,7 +283,7 @@ Celulares	Desktops	Televisivo
 
 /*TABLET--DESKTOP*/
 
-@media only screen and (min-decive-width: 768px) {
+@media only screen and (min-width: 768px) {
   .conter {
     width: 100%;
     max-width: 1125px;
@@ -357,7 +359,7 @@ Celulares	Desktops	Televisivo
   }
 }
 
-@media only screen and (min-decive-width: 1023px) {
+@media only screen and (min-width: 1023px) {
   .conter {
     max-width: 1300px;
   }
