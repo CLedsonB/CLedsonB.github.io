@@ -271,7 +271,9 @@ label span {
 }
 .ativar-dark:checked ~ .dark-mode main {
   background-color: #000;
-}
+}  
+
+
 
 /*@MEDIA -- RESPOSIVIDADE*/
 
@@ -283,7 +285,7 @@ Celulares	Desktops	Televisivo
 
 /*TABLET--DESKTOP*/
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 767px) {
   .conter {
     width: 100%;
     max-width: 1125px;
