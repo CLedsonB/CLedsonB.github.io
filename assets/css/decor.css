@@ -1,22 +1,13 @@
 /*GARANTIR INICIO PADRÃO*/
 
-html,
-body,
-figure,
-img,
-div,
-input,
-textarea,
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-ul,
-li,
-a,
+html,body,figure,
+img,div,
+input,textarea,
+p,h1,
+h2,h3,
+h4,h5,
+h6,ul,
+li,a,
 main {
   margin: 0;
   padding: 0;
@@ -183,7 +174,7 @@ main .col section .baixo-esquerda {
 }
 
 main .col section h2 {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   margin: 0 0 15px;
 }
 main .col section p {
@@ -198,10 +189,10 @@ main .col section ul li {
 /*coluna direita*/
 
 main .col section ul li h3 {
-  font-size: 1.1rem;
+  font-size: 1.4rem;
 }
 main .col section ul li strong {
-  font-size: 2.3rem;
+  font-size: 1.2rem;
   font-weight: 500;
   margin: 5px 0 10px;
   display: inline-block;
@@ -320,7 +311,7 @@ Celulares	Desktops	Televisivo
     padding: 30px;
   }
   main .col section {
-    border: 2px solid transparent;
+    border: 2px solid var(--corBackPrimaria);
     padding: 30px;
   }
   main .col section p {
